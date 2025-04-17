@@ -12,6 +12,9 @@
         <li>
           <RouterLink :to="{ name: 'recipe', params: { id: 2 } }">Recipe 2</RouterLink>
         </li>
+        <li>
+          <RouterLink :to="{ name: 'not-found' }">Error</RouterLink>
+        </li>
       </ul>
     </nav>
   </main>
