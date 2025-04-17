@@ -12,9 +12,6 @@ import { RouterView } from 'vue-router';
         <li>
           <RouterLink :to="{ name: 'favorites' }">Favorites</RouterLink>
         </li>
-        <li>
-          <a href="/favorites">Favorites A</a>
-        </li>
       </ul>
     </nav>
   </header>
