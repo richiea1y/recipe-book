@@ -3,7 +3,15 @@ import { RouterView } from 'vue-router';
 </script>
 
 <template>
-  <header></header>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <RouterLink to="/favorites">Favorites</RouterLink>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
   <RouterView />
 </template>
