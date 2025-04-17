@@ -7,7 +7,7 @@ import { RouterView } from 'vue-router';
     <nav>
       <ul>
         <li>
-          <RouterLink to="/favorites">Favorites</RouterLink>
+          <RouterLink :to="{ name: 'favorites' }">Favorites</RouterLink>
         </li>
       </ul>
     </nav>
