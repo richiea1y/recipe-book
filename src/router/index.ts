@@ -13,7 +13,7 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: '/favorites-changed',
+      path: '/favorites',
       name: 'favorites',
       component: FavoritesView,
     },

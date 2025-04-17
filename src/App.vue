@@ -7,7 +7,13 @@ import { RouterView } from 'vue-router';
     <nav>
       <ul>
         <li>
+          <RouterLink :to="{ name: 'home' }">Home</RouterLink>
+        </li>
+        <li>
           <RouterLink :to="{ name: 'favorites' }">Favorites</RouterLink>
+        </li>
+        <li>
+          <a href="/favorites">Favorites A</a>
         </li>
       </ul>
     </nav>
